@@ -1,0 +1,126 @@
+<html>
+<!-- head comments  -->
+
+<head>
+	<meta charset="big5" />
+	<title> 原住民各族介紹 </title>
+	<style>
+		body{ 
+			padding: 70px;
+			position:relative;
+		}
+		a1{
+			color:7F0000;
+			font-size:1.3cm;
+		}
+
+</style>
+	<script>
+		var size = 100;
+		function SizeToLarge() {
+			if (size > 499) {
+				alert("This is the largest !!");
+			} else {
+				size = size + 50;
+				$("text").css("font-size", size + "%");
+			}
+		}
+		function SizeTosmall() {
+			if (size > 99) {
+				size = size - 50;
+				$("text").css("font-size", size + "%");
+			} else {
+				alert("This is the smallest !!");
+			}
+		}
+	</script>
+
+	<head>
+		<title>Bootstrap Navigation Bar</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+
+	<body>
+		<ul class="nav nav-tabs navbar-fixed-top navbar-default">
+			<li><a data-toggle="tab" href="#home">主頁</a></li>
+			<li><a data-toggle="tab" href="#menu1">簡易介紹</a></li>
+			<li><a data-toggle="tab" href="#menu2">關於我們</a></li>
+			<li><input type="button" style="width:100px;height:40px;font-size:20px;" value="字體放大" onClick="SizeToLarge()"></li>
+			<li><input type="button" style="width:100px;height:40px;font-size:20px;" value="字體縮小" onClick="SizeTosmall()"></li>
+			<li class="nav pull-right"><a href="https://docs.google.com/forms/d/1py-onzfRD2UwOwNavdSS0GiMV5ZRqnmVk80T_0QJi_w/"
+				 target="_blank">給我們意見</a>
+		</ul>
+
+		<div class="tab-content">
+			<div id="home" class="tab-pane fade in active">
+				<img src="Aborigines\maps.jpg" usemap="#ImageMap01">
+				<map name="ImageMap01">
+					<area shape="rect" coords="126,115,204,150" href="Aborigines\01.html">
+					<area shape="rect" coords="107,187,185,222" href="Aborigines\02.html">
+					<area shape="rect" coords="99,239,177,274" href="Aborigines\03.html">
+					<area shape="rect" coords="71,291,149,326" href="Aborigines\04.html">
+					<area shape="rect" coords="50,345,150,380" href="Aborigines\05.html">
+					<area shape="rect" coords="66,399,150,434" href="Aborigines\06.html">
+					<area shape="rect" coords="51,456,129,491" href="Aborigines\07.html">
+					<area shape="rect" coords="87,514,165,549" href="Aborigines\08.html">
+					<area shape="rect" coords="99,571,178,606" href="Aborigines\09.html">
+					<area shape="rect" coords="515,76,593,111" href="Aborigines\10.html">
+					<area shape="rect" coords="533,167,612,202" href="Aborigines\11.html">
+					<area shape="rect" coords="535,250,614,285" href="Aborigines\12.html">
+					<area shape="rect" coords="518,328,596,363" href="Aborigines\13.html">
+					<area shape="rect" coords="502,417,580,452" href="Aborigines\14.html">
+					<area shape="rect" coords="479,483,580,518" href="Aborigines\15.html">
+					<area shape="rect" coords="499,549,577,585" href="Aborigines\16.html">
+				</map>
+			</div>
+			<div id="menu1" class="tab-pane fade" style="font-size:150%;">
+				<a1>簡易介紹:</a1><text>
+					<p>
+						台灣原住民族約有53萬人，佔總人口數的2﹪，目前，經政府認定的原住民族有：阿美族、泰雅族、排灣族、布農族、卑南族、魯凱族、鄒族、賽夏族、雅美族、邵族、噶瑪蘭族、太魯閣族、撒奇萊雅族、賽德克族、拉阿魯哇族、卡那卡那富族等16族。<p>
+							阿美族：阿美族分佈在中央山脈東側，立霧溪以南，太平洋沿岸的東台縱谷及東海岸平原，大部份居住於平地，只有極少數居於山谷中。<p>
+								泰雅族：泰雅族分布在台灣中北部山區，包括埔里至花蓮連線以北地區。<p>
+									排灣族：排灣族以台灣南部為活動區域，北起大武山地，南達恆春，西自隘寮，東到太麻里以南海岸。<p>
+										布農族：布農族分布於中央山脈海拔一千至二千公尺的山區，廣及於高雄縣那瑪夏鄉、台東縣海端鄉，而以南投縣境為主。<p>
+											卑南族：卑南族分布於台東縱谷南部。<p>
+												魯凱族：魯凱族分布於高雄縣茂林鄉、屏東縣霧台鄉及台東縣東興村等地。<p>
+													鄒族：鄒族主要居住於嘉義縣阿里山鄉，亦分布於南投縣信義鄉。<p>
+														賽夏族：賽夏族居住於新竹縣與苗栗縣交界的山區，又分為南、北兩大族群。北賽夏居住於新竹縣五峰鄉，南賽夏居住於苗栗縣南庄鄉與獅潭鄉。<p>
+															雅美族：雅美族分布於台東的蘭嶼島上的六個村落，為台灣唯一的一支海洋民族。<p>
+																邵族：邵族分布於南投縣魚池鄉及水里鄉，大部份邵族人居住日月潭畔的日月村，少部分原來屬頭社系統的邵人，則住在水里鄉頂崁村的大平林。<p>
+																	噶瑪蘭族：噶瑪蘭族，過去居住於宜蘭，目前遷居到花蓮和台東。<p>
+																		太魯閣族：太魯閣族大致分佈北起於花蓮縣和平溪，南迄紅葉及太平溪這一廣大的山麓地帶，即現行行政體制下的花蓮縣秀林鄉、萬榮鄉及少部份的卓溪鄉立山、崙山等地。<p>
+																			撒奇萊雅族：撒奇萊雅族的聚落主要分佈於台灣東部，大致在今日的花蓮縣境內<p>
+																				賽德克族：賽德克族的發源地為德鹿灣(Truwan)，為現今仁愛鄉春陽溫泉一帶，主要以台灣中部及東部地域為其活動範圍，約介於北方的泰雅族及南方的布農族之間。<p>
+																					拉阿魯哇族：高雄市桃源區高中里、桃源里以及那瑪夏區瑪雅里。<p>
+																						卡那卡那富族：高雄市那瑪夏區楠梓仙溪流域兩側，現大部分居住於達卡努瓦里及瑪雅里。<p>
+				</text>
+			</div>
+			<div id="menu2" class="tab-pane fade" style="font-size:150%;">
+				<a1>關於我們:</a1><text><br>
+					組員:徐任亨、莊仕良
+				</text>
+			</div>
+
+
+
+		</div>
+
+
+
+		<br>
+		<br>
+
+
+
+
+		<!--
+
+-->
+
+	</body>
+
+</html>

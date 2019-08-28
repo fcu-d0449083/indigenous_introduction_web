@@ -1,0 +1,76 @@
+<html>
+<!-- head comments  -->
+
+<head>
+	<meta charset="big5" />
+	<title> 泰雅族 </title>
+	<style>
+		body{
+		padding:100px 60px;
+		position:relative;
+	}
+	a1{
+		color:7F0000;
+		font-size:1.3cm;
+	}
+</style>
+
+	<script>
+		var size = 100;
+		function SizeToLarge() {
+			if (size > 499) {
+				alert("This is the largest !!");
+			} else {
+				size = size + 50;
+				$("text").css("font-size", size + "%");
+			}
+		}
+		function SizeTosmall() {
+			if (size > 99) {
+				size = size - 50;
+				$("text").css("font-size", size + "%");
+			} else {
+				alert("This is the smallest !!");
+			}
+		}
+	</script>
+
+
+	<title>Bootstrap Navigation Bar</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+	<ul class="nav nav-tabs navbar-fixed-top navbar-inverse">
+		<li><a href="../index.html"><img alt="Brand" src="HOME.png"></a></li>
+		<li><input type="image" value="字體變大" img src="B.png" onClick="SizeToLarge()"></li>
+		<li><input type="image" value="字體變小" img src="S.png" onClick="SizeTosmall()"></li>
+
+	</ul>
+
+	<div class="tab-content" style="font-size:150%;">
+		<div class="in active">
+			<text>
+
+				<a1>泰雅族</a1><br>
+				<p>泰雅族（Atayal），舊稱泰耶爾，屬於南島語族的一支，是在台灣的第三大原住民族群，為典型的高山民族，古有出草獵人頭習俗。現世居台灣中央山脈旁的聚落。
+
+					泰雅人分布於台灣島上的山地高山，為南島民族之一。生活幾千年的臺灣原住民族群，分布於北部中央山脈兩側，東至花蓮太魯閣，西至東勢，北到烏來，南迄南投縣仁愛鄉，曾是台灣原住民中分布面積最廣的一族。
+
+					泰雅族的族名原意為「真人」或「勇敢的人」。考古學家認為在距今五千年前，泰雅族就開始在台灣活動，在濁水溪上游曾發現他們的遺址，年代約為西元前2000年至3000年間。
+
+					由於泰雅族的方言群眾多，一般將泰雅族分為兩大語系亞族，分別是泰雅亞族與賽德克族，共有二十五個方言群體。根據不同方言群泰雅族人的傳說，其祖先起源包括三個地方，首先是於雪山山脈（大霸尖山），其次是今南投縣仁愛鄉的發祥村瑞岩部落，再來是位於南投縣仁愛鄉中央山脈的白石山。後來因人口增長開始往西北方向、東部及西南方向遷移。
+					在日治時期，泰雅族被稱為北蕃，為台灣北部最大原住民族群，台灣南部最大族群則是被稱為南蕃的布農族。現在，泰雅族分布在台灣北部中央山脈兩側，以及花蓮、宜蘭等山區，共分布台灣北部八縣十三個鄉內。總人口數約九萬餘人，就人數而言，僅次於阿美族及排灣族，為台灣原住民族中的第三大族。
+					居住在新北市烏來區的泰雅族聚落，是全世界南島語系居住地中，最北方的聚落。</p>
+			</text>
+		</div>
+	</div>
+
+
+</body>
+
+</html>

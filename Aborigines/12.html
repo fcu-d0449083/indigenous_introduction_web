@@ -1,0 +1,82 @@
+<html>
+<!-- head comments  -->
+
+<head>
+	<meta charset="big5" />
+	<title> 撒奇萊雅族 </title>
+	<style>
+		body{
+		padding:100px 60px;
+		position:relative;
+	}
+	a1{
+		color:7F0000;
+		font-size:1.3cm;
+	}
+</style>
+
+	<script>
+		var size = 100;
+		function SizeToLarge() {
+			if (size > 499) {
+				alert("This is the largest !!");
+			} else {
+				size = size + 50;
+				$("text").css("font-size", size + "%");
+			}
+		}
+		function SizeTosmall() {
+			if (size > 99) {
+				size = size - 50;
+				$("text").css("font-size", size + "%");
+			} else {
+				alert("This is the smallest !!");
+			}
+		}
+	</script>
+
+
+	<title>Bootstrap Navigation Bar</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+	<ul class="nav nav-tabs navbar-fixed-top navbar-inverse">
+		<li><a href="../index.html"><img alt="Brand" src="HOME.png"></a></li>
+		<li><input type="image" value="字體變大" img src="B.png" onClick="SizeToLarge()"></li>
+		<li><input type="image" value="字體變小" img src="S.png" onClick="SizeTosmall()"></li>
+
+	</ul>
+
+	<div class="tab-content" style="font-size:150%;">
+		<div class="in active">
+			<text>
+
+				<a1>撒奇萊雅族</a1><br>
+				<p>
+					撒奇萊雅族
+					Sakizaya
+					總人口
+					約956人(2018年11月)
+					分布地區
+					台灣花蓮奇萊平原
+					語言
+					撒奇萊雅語
+					相關民族
+					噶瑪蘭族、阿美族
+					和其他「台灣原住民」都屬於「台灣南島民族」
+					和島嶼東南亞、非洲馬達加斯加島、以及大洋洲密克羅尼西亞、美拉尼西亞、波里尼西亞的「南島民族」相關
+					撒奇萊雅族
+					（撒奇萊雅語：Sakizaya），舊稱薩克扎耶或沙基扎雅，是台灣原住民的一個族群，世居於花蓮奇萊平原。台灣清治時期，因巡撫沈葆禎開山撫蕃政策，與清朝軍隊發生衝突，在加禮宛事件（達固湖灣事件）中，撒奇萊雅族遭大舉屠殺，倖存者擔心遭致追殺便隱姓埋名躲藏於阿美族部落。當時因故身藏阿美族部落，日治時代日本政府因此無從辨識其族群，將其列為阿美族的一支。1990年起經過17年正名運動，終於在2007年1月17日由中華民國政府官方合法承認其為台灣原住民族。</p>
+			</text>
+		</div>
+	</div>
+
+
+</body>
+
+</html>

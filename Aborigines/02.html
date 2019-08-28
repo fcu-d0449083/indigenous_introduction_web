@@ -1,0 +1,75 @@
+<html>
+<!-- head comments  -->
+
+<head>
+	<meta charset="big5" />
+	<title> 賽德克族 </title>
+	<style>
+		body{
+		padding:100px 60px;
+		position:relative;
+	}
+	a1{
+		color:7F0000;
+		font-size:1.3cm;
+	}
+</style>
+
+	<script>
+		var size = 100;
+		function SizeToLarge() {
+			if (size > 499) {
+				alert("This is the largest !!");
+			} else {
+				size = size + 50;
+				$("text").css("font-size", size + "%");
+			}
+		}
+		function SizeTosmall() {
+			if (size > 99) {
+				size = size - 50;
+				$("text").css("font-size", size + "%");
+			} else {
+				alert("This is the smallest !!");
+			}
+		}
+	</script>
+
+
+	<title>Bootstrap Navigation Bar</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+	<ul class="nav nav-tabs navbar-fixed-top navbar-inverse">
+		<li><a href="../index.html"><img alt="Brand" src="HOME.png"></a></li>
+		<li><input type="image" value="字體變大" img src="B.png" onClick="SizeToLarge()"></li>
+		<li><input type="image" value="字體變小" img src="S.png" onClick="SizeTosmall()"></li>
+
+	</ul>
+
+	<div class="tab-content" style="font-size:150%;">
+		<div class="in active">
+			<text>
+
+				<a1>賽德克族</a1><br>
+				<p>賽德克族（賽德克語：Seediq），是臺灣原住民的部族之一，主要居住在今南投縣東北部與花蓮縣北部、南部。在近代的族群分類上被歸為泰雅族的分支，經過多年的正名運動，終在2008年4月23日成為中華民國政府承認的臺灣原住民族群。人口約一萬人。
+
+					早在清朝文獻中即可見到該族的記載，日治時期的人類學家雖然發現賽德克族與泰雅族在語系上的差異，但兩者同樣有紋面、出草等文化，故仍將其歸類在後者；而賽德克族與太魯閣族則有共同的起源與文化，卻在居住地域的迥異下分道揚鑣。
+					賽德克族的社會體系與文化、制度以「Gaya」與「Waya」（譯作族律）為優先與最高標準。部落意識為輔之生活系統，所建構的傳統農獵社會型態，賽德克族的社會制度屬父為主、母為輔的特殊社會制度。賽德克族的家庭乃至部落社會的互動模式中，紡織工作由女性為主力、較為粗重的工作及狩獵等庶務以男性為主。
+
+					在婚姻制度上，賽德克族是堅持一夫一妻制的族律，在族人恪守族律之下，賽德克族的社會杜絕都市社會中同居、婚外情、未婚生子等違犯祖訓的男女異常關係之亂象。
+
+					在歷史實證與《賽德克·巴萊》劇情中部份顯示，賽德克族在台灣1895年至1945年10月25日之間的日本時代確實受當時殖民政策所影響，禁止賽德克人傳承自家文化，以致一些儀式（如Smratuc）文化漸被族世人淡忘。2011年1月，賽德克族恢復「年祭」與「播種祭」。賽德克族有一種傳統樂器「獵首笛」，要用嘴巴吹氣、演奏，其他如木琴等，均是早期賽德克族人使用生活中常見物品製作而成。</p>
+			</text>
+		</div>
+	</div>
+
+
+</body>
+
+</html>

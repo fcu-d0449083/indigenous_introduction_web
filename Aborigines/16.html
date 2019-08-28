@@ -1,0 +1,72 @@
+<html>
+<!-- head comments  -->
+
+<head>
+	<meta charset="big5" />
+	<title> 達悟族 </title>
+	<style>
+		body{
+		padding:100px 60px;
+		position:relative;
+	}
+	a1{
+		color:7F0000;
+		font-size:1.3cm;
+	}
+</style>
+
+	<script>
+		var size = 100;
+		function SizeToLarge() {
+			if (size > 499) {
+				alert("This is the largest !!");
+			} else {
+				size = size + 50;
+				$("text").css("font-size", size + "%");
+			}
+		}
+		function SizeTosmall() {
+			if (size > 99) {
+				size = size - 50;
+				$("text").css("font-size", size + "%");
+			} else {
+				alert("This is the smallest !!");
+			}
+		}
+	</script>
+
+
+	<title>Bootstrap Navigation Bar</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+	<ul class="nav nav-tabs navbar-fixed-top navbar-inverse">
+		<li><a href="../index.html"><img alt="Brand" src="HOME.png"></a></li>
+		<li><input type="image" value="字體變大" img src="B.png" onClick="SizeToLarge()"></li>
+		<li><input type="image" value="字體變小" img src="S.png" onClick="SizeTosmall()"></li>
+
+	</ul>
+
+	<div class="tab-content" style="font-size:150%;">
+		<div class="in active">
+			<text>
+
+				<a1>達悟族</a1><br>
+				<p>達悟族（Tao），舊稱雅美族或耶眉族（Yami），源於日本人類學家鳥居龍藏在1897年的調查報告，他在報告中將蘭嶼稱為雅美（Yami），是台灣南島語系唯一分布在台灣離島的一支民族，分布於台灣本島東南外海的蘭嶼上，人口約四千餘人，是海洋民族，以捕魚為主要產業，並有飛魚祭等歲時祭儀，蘭嶼在1877年起進入清代有效控制範圍內，但在1903年日治時期時方有國家機構的建制。1998年，主管台灣原住民事務的行政院原住民族委員會在雅美族人的呼聲下將蘭嶼原住民的族群名稱改為達悟族（Tao）。
+
+					達悟族社會沒有氏族或貴族制度，而是由各家族的長老為意見領袖的父系社會，這些家族也構成達悟族最重要的社會單位：漁團組織。達悟族是中華民國原住民族中唯一以漁業為主的民族，但也會種植小米、芋頭等作物。一般來說，漁業是男性的任務，而農業則由女性負責，並劃有漁團組織、粟作組織、灌溉組織等經濟工作單位。每年的3－6月是達悟族的重要祭典：飛魚祭。達悟人視飛魚為神賜予的禮物，在飛魚季期間，各漁船船員需住在共宿屋內，在這期間只捕飛魚，不捕其它魚種，而所有的漁獲皆與部落共享，因為達悟族人相信若在飛魚祭結束前將漁獲分食完畢，來年就會有源源不絕的收獲。
+
+					2005年6月，行政院原住民委員會為了保護達悟人的飛魚文化，規定每年3－6月蘭嶼外海6海里內的海域禁止10噸以上漁船捕魚，也禁止使用流刺網、追逐網，或毒魚、炸魚等手段。</p>
+			</text>
+		</div>
+	</div>
+
+
+</body>
+
+</html>

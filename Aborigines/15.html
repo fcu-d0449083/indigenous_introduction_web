@@ -1,0 +1,69 @@
+<html>
+<!-- head comments  -->
+
+<head>
+	<meta charset="big5" />
+	<title> 卑南族 </title>
+	<style>
+		body{
+		padding:100px 60px;
+		position:relative;
+	}
+	a1{
+		color:7F0000;
+		font-size:1.3cm;
+	}
+</style>
+
+	<script>
+		var size = 100;
+		function SizeToLarge() {
+			if (size > 499) {
+				alert("This is the largest !!");
+			} else {
+				size = size + 50;
+				$("text").css("font-size", size + "%");
+			}
+		}
+		function SizeTosmall() {
+			if (size > 99) {
+				size = size - 50;
+				$("text").css("font-size", size + "%");
+			} else {
+				alert("This is the smallest !!");
+			}
+		}
+	</script>
+
+
+	<title>Bootstrap Navigation Bar</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+	<ul class="nav nav-tabs navbar-fixed-top navbar-inverse">
+		<li><a href="../index.html"><img alt="Brand" src="HOME.png"></a></li>
+		<li><input type="image" value="字體變大" img src="B.png" onClick="SizeToLarge()"></li>
+		<li><input type="image" value="字體變小" img src="S.png" onClick="SizeTosmall()"></li>
+
+	</ul>
+
+	<div class="tab-content" style="font-size:150%;">
+		<div class="in active">
+			<text>
+
+				<a1>卑南族</a1><br>
+				<p>卑南族位於多族群交會的平原地帶，很早與外界文化接觸，卻依然持續維繫傳統文化與生活。卑南族社會有嚴謹的年齡階級組織與會所制度；巫法之術（靈術）高強興盛，名聲遠播於各民族之間。卑南族現今尚存之年度慶典有「小米鋤草完工慶」、「小米收穫祭」（感恩海祭）、「少年年祭」（猴祭）、「年祭」（大獵祭）等，其中以「年祭」的規模最大。現今人口約有14,321人（民國107年﹝
+					2018﹞ 312月）。</p>
+			</text>
+		</div>
+	</div>
+
+
+</body>
+
+</html>

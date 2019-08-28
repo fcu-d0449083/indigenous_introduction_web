@@ -1,0 +1,80 @@
+<html>
+<!-- head comments  -->
+
+<head>
+	<meta charset="big5" />
+	<title> 太魯閣族 </title>
+	<style>
+		body{
+		padding:100px 60px;
+		position:relative;
+	}
+	a1{
+		color:7F0000;
+		font-size:1.3cm;
+	}
+</style>
+
+	<script>
+		var size = 100;
+		function SizeToLarge() {
+			if (size > 499) {
+				alert("This is the largest !!");
+			} else {
+				size = size + 50;
+				$("text").css("font-size", size + "%");
+			}
+		}
+		function SizeTosmall() {
+			if (size > 99) {
+				size = size - 50;
+				$("text").css("font-size", size + "%");
+			} else {
+				alert("This is the smallest !!");
+			}
+		}
+	</script>
+
+
+	<title>Bootstrap Navigation Bar</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+	<ul class="nav nav-tabs navbar-fixed-top navbar-inverse">
+		<li><a href="../index.html"><img alt="Brand" src="HOME.png"></a></li>
+		<li><input type="image" value="字體變大" img src="B.png" onClick="SizeToLarge()"></li>
+		<li><input type="image" value="字體變小" img src="S.png" onClick="SizeTosmall()"></li>
+
+	</ul>
+
+	<div class="tab-content" style="font-size:150%;">
+		<div class="in active">
+			<text>
+
+				<a1>太魯閣族</a1><br>
+				<p>太魯閣族最早起源於今臺灣南投地區，與賽德克族有共同祖先。
+
+					現代人類學者認為，泰雅族與賽德克族、太魯閣族擁有共同起源，可區分為泰雅亞群與賽德克亞群兩大分支。賽德克亞群可再區分為三大方言群：
+
+					德路固（Seejiq Truku）太魯閣群(Taroko)，或稱「托洛庫群」(Truku)）
+					德固達雅（賽德克Seediq Tgdaya）德克達雅群(Takadaya)
+					都達（賽德克Sediq Toda）道澤群(Tuuda)
+					太魯閣族分支自賽德克亞群中的德路固群。在西元16世紀前後，太魯閣族人由南投，翻越山區，遷居到今花蓮縣秀林鄉、萬榮鄉及吉安鄉部分地區一帶，成為獨立族群。
+
+					1876年，清政府強行入侵太魯閣地區，因而爆發抗清的太魯閣事件。1914年5月至8月間，日本臺灣總督府為控制臺灣花蓮一帶的原住民勢力，與當時控制太魯閣地區的太魯閣族人爆發了太魯閣戰爭，太魯閣族被臺灣總督視為重要敵人。
+					戰爭結束剩餘的太魯閣族被強迫遷往平地居住，並進行日本化教育。
+
+					在2000年前後，居住在花蓮的太魯閣族人，因為發展出自己的文化認同，向政府要求正名為太魯閣族，在2004年通過。隨後，居住在南投一帶的族人，則爭取稱為賽德克族，在2007年通過。在法律上成為兩個不同族群。</p>
+			</text>
+		</div>
+	</div>
+
+
+</body>
+
+</html>
